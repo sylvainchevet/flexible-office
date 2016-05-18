@@ -2223,3 +2223,47 @@ body.enable-preloader.preloader-dark #jpreLoader {
 	overflow: hidden;
 	text-align: center;
 }
+
+/**
+ * ========================================
+ * carousel
+ * ========================================
+ */
+.carousel-control.right,
+.carousel-control.left {
+	background-image: linear-gradient(to right, transparent, transparent);
+}
+
+.icon-chevron-right {
+    right: 10px;
+}
+
+.icon-chevron-left {
+    left: 10px;
+}
+
+.icon-chevron {
+    display: inline-block;
+    width: 1.3em;
+    height: 1.3em;
+    fill: #FFFFFF;
+    top: 50%;
+    font-size: 30px;
+    position: absolute;
+}
+
+@media (max-width: @screen-sm) {
+    .icon-chevron-right,
+    .icon-chevron-left  {
+        font-size: 24px;
+        fill: white !important;
+    }
+
+    .icon-chevron-right {
+        right: 2px;
+    }
+
+    .icon-chevron-left {
+        left: 2px;
+    }
+}
