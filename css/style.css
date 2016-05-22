@@ -2267,3 +2267,65 @@ body.enable-preloader.preloader-dark #jpreLoader {
         left: 2px;
     }
 }
+
+
+/**** SMOOCH ***/
+#sk-container #sk-wrapper .sk-msg {
+    background-color: #FF5D54;
+}
+
+#sk-container #sk-wrapper .sk-msg::after {
+    border-left-color: #FF5D54;
+}
+
+#sk-holder #sk-container #sk-conversation .sk-row.sk-right-row .sk-msg {
+   background-color: #FF5D54;
+}
+#sk-holder #sk-container #sk-conversation .sk-row.sk-right-row .sk-msg::after {
+   border-left-color: #FF5D54;
+}
+
+#sk-holder #sk-container #sk-header {
+    background-color: #FF5D54 !important;
+    color: white !important;
+}
+
+#sk-holder #sk-container .fa-times:before {
+    color: white !important;
+}
+
+#sk-holder #sk-container #sk-header .fa {
+    color: white !important;
+}
+
+#sk-holder #sk-container #sk-footer .input-container {
+    padding-right: 75px !important;
+}
+
+#sk-holder #sk-container .fa-arrow-up:before,
+#sk-holder #sk-container #sk-settings-header .fa {
+    color: white !important;
+}
+
+#sk-holder #sk-container #sk-badge {
+    background-color: white;
+    color: #FF5D54 !important;
+}
+
+#sk-holder #sk-container .btn-sk-primary,
+#sk-holder #sk-container #sk-settings-header {
+    color: #fff;
+    background-color: #FF5D54 !important;
+    border-color: #FF5D54 !important;
+}
+
+#sk-holder #sk-container .btn-sk-primary.active, #sk-holder #sk-container .btn-sk-primary:active, #sk-holder #sk-container .btn-sk-primary:hover, .open>.dropdown-toggle#sk-holder #sk-container .btn-sk-primary {
+    color: #fff;
+    background-color: #FF5D54-hover !important;
+    border-color: #FF5D54-hover !important;
+}
+
+#sk-holder #sk-container #sk-footer .send:hover,
+#sk-holder #sk-container .sk-notification-container .sk-notification p a {
+    color: #FF5D54 !important;
+}
