@@ -16,7 +16,7 @@ a {
 	color: #FF564C;
 }
 a:focus, a:hover {
-	color: #FF4338;
+	color: #ba0d02;
 }
 .text-primary {
 	color: #FF564C;
@@ -40,7 +40,7 @@ a.bg-primary:hover {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-	background-color: #FF4D42;
+	background-color: #f7392d;
 	border-color: #FF564C;
 }
 .btn-primary.disabled,
