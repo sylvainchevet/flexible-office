@@ -1494,6 +1494,15 @@ iframe {
 .team-member-text {
 	padding: 30px 30px 60px;
 }
+.team-member-text.even {
+    background-color: #f6f6f6;
+}
+@media (min-width: 991px) {
+	.team-member-text.even {
+		margin: 0px 10px;
+	}
+}
+
 .team-member-name {
 	margin: 0 0 5px;
 	font-family: "Montserrat", sans-serif;
@@ -2234,6 +2243,15 @@ body.enable-preloader.preloader-dark #jpreLoader {
 	background-image: linear-gradient(to right, transparent, transparent);
 }
 
+.carousel {
+	border: 1px solid #a0a0a0;
+}
+@media (min-width: 991px) {
+	.carousel {
+		margin: 0px 10px;
+	}
+}
+
 .icon-chevron-right {
     right: 10px;
 }
@@ -2329,3 +2347,6 @@ body.enable-preloader.preloader-dark #jpreLoader {
 #sk-holder #sk-container .sk-notification-container .sk-notification p a {
     color: #FF5D54 !important;
 }
+
+
+
